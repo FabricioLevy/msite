@@ -1,0 +1,44 @@
+/* Reset */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Container central */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo */
+.logo {
+  max-width: 250px;
+  height: auto;
+}
+
+/* Texto principal */
+h1 {
+  font-size: 2rem;
+  letter-spacing: 8px;
+  font-weight: 600;
+}
+
+/* Subtítulo (nome da empresa) */
+.subtitle {
+  font-size: 1rem;
+  letter-spacing: 6px;
+  color: #bbb;
+}
